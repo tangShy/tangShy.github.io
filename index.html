@@ -160,6 +160,108 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://www.tangjian.vip/2020/04/19/Java%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E5%85%AD/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/bboy.png">
+      <meta itemprop="name" content="Tang Jian">
+      <meta itemprop="description" content="Coding change world~">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Tang's blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/04/19/Java%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E5%85%AD/" class="post-title-link" itemprop="url">Java设计模式学习笔记六</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2020-04-19 10:24:06 / 修改时间：23:28:10" itemprop="dateCreated datePublished" datetime="2020-04-19T10:24:06+08:00">2020-04-19</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Java/" itemprop="url" rel="index"><span itemprop="name">Java</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-file-word-o"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>862</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="适配器模式"><a href="#适配器模式" class="headerlink" title="适配器模式"></a>适配器模式</h2><h3 id="1、基本介绍"><a href="#1、基本介绍" class="headerlink" title="1、基本介绍"></a>1、基本介绍</h3><ul>
+<li>适配器模式（Adapter Pattern）将某个类的接口转换成客户端期望的另一个接口表示，<strong>主要目的是兼容性</strong>，让原本因接口不匹配不能一起工作的两个类可以协同工作。其别名为包装器（Wrapper）</li>
+<li>适配器模式属于结构型模式</li>
+<li>主要分为三类：<strong>类适配器模式、对象适配器模式、接口适配器模式</strong></li>
+</ul>
+<h3 id="2、工作原理"><a href="#2、工作原理" class="headerlink" title="2、工作原理"></a>2、工作原理</h3><ul>
+<li>适配器模式：讲一个类的接口转换成另一种接口，让原本接口不兼容的类可以兼容</li>
+<li>从用户的角度看不到被适配者，是解耦的</li>
+<li>用户调用适配器转化出来的目标接口方法，适配器再调用被适配者的相关接口方法</li>
+<li>用户收到反馈结果，感觉只是和目标接口交互</li>
+</ul>
+<h2 id="类适配器模式"><a href="#类适配器模式" class="headerlink" title="类适配器模式"></a>类适配器模式</h2><p>基本介绍：Adapter类、通过继承src类，实现dest类接口，完成 src——&gt;dst 的适配。</p>
+<p>注意事项和细节：</p>
+<ol>
+<li>Java是单继承，所以类适配器需要继承src类这一点算是一个缺点，因为这要求dst必须是一个接口，有一定局限性</li>
+<li>src类的方法在 Adapter 中都会暴露出来，也增加了使用的成本</li>
+<li>由于其继承了src类，所以它可以根据需求重写src类的方法，使得 Adapter 的灵活性增强了</li>
+</ol>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2020/04/19/Java%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E5%85%AD/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+	<div>
+	  
+	</div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://www.tangjian.vip/2020/04/04/Java%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%BA%94/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -816,7 +918,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">6</span>
+          <span class="site-state-item-count">7</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
